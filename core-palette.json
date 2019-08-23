@@ -1,22 +1,119 @@
 {"palette": {
   "name": "Core Palette",
   "version": "1.0",
-  "change-date": "2019-08-23",
-  "color-collection": {
-	  "name": "Magnetic Blue",
+  "changeDate": "2019-08-23",
+  "collections": [
+    {
+    "name": "Magnetic Blue",
     "colors": [
       {"id": "101", "number": "00", "color": "#F3F7FF"},
       {"id": "102", "number": "05", "color": "#E7EEFD"},
       {"id": "103", "number": "10", "color": "#DBE5FB"},
-      {"id": "101", "number": "20", "color": "#BECEF0"},
-      {"id": "102", "number": "30", "color": "#9EB1DE"},
-      {"id": "103", "number": "40", "color": "#7C90C3"},
-      {"id": "101", "number": "50", "color": "#5A6DA2"},
-      {"id": "102", "number": "60", "color": "#3D4E80"},
-      {"id": "103", "number": "70", "color": "#273664"},
-      {"id": "101", "number": "80", "color": "#192550"},
-      {"id": "102", "number": "90", "color": "#101B44"},
-      {"id": "103", "number": "100", "color": "#040F3B"}
+      {"id": "104", "number": "20", "color": "#BECEF0"},
+      {"id": "105", "number": "30", "color": "#9EB1DE"},
+      {"id": "106", "number": "40", "color": "#7C90C3"},
+      {"id": "107", "number": "50", "color": "#5A6DA2"},
+      {"id": "108", "number": "60", "color": "#3D4E80"},
+      {"id": "109", "number": "70", "color": "#273664"},
+      {"id": "110", "number": "80", "color": "#192550"},
+      {"id": "111", "number": "90", "color": "#101B44"},
+      {"id": "112", "number": "100", "color": "#040F3B"}
+    ]
+  },
+  {
+    "name": "Lilac",
+    "colors": [
+      {"id": "201", "number": "00", "color": "#F4F3FF"},
+      {"id": "202", "number": "10", "color": "#F0EEFF"},
+      {"id": "203", "number": "20", "color": "#E5E1FD"},
+      {"id": "204", "number": "30", "color": "#D4CCFB"},
+      {"id": "205", "number": "40", "color": "#BCB0F7"},
+      {"id": "206", "number": "50", "color": "#A18EF0"},
+      {"id": "207", "number": "60", "color": "#856CE5"},
+      {"id": "208", "number": "65", "color": "#785DDC"},
+      {"id": "209", "number": "70", "color": "#6C4FD4"},
+      {"id": "210", "number": "80", "color": "#5538BA"},
+      {"id": "211", "number": "90", "color": "#3F2590"},
+      {"id": "212", "number": "100", "color": "#20124A"}
+    ]
+  },
+  {
+    "name": "Salmon",
+    "colors": [
+      {"id": "301", "number": "00", "color": "#FFEDEB"},
+      {"id": "302", "number": "05", "color": "#FFDEDA"},
+      {"id": "303", "number": "10", "color": "#FFCDC5"},
+      {"id": "304", "number": "20", "color": "#FDAB9D"},
+      {"id": "305", "number": "30", "color": "#FB8D79"},
+      {"id": "306", "number": "40", "color": "#F7755B"},
+      {"id": "307", "number": "50", "color": "#F06243"},
+      {"id": "308", "number": "60", "color": "#E55430"},
+      {"id": "309", "number": "70", "color": "#D54722"},
+      {"id": "310", "number": "80", "color": "#BC3C17"},
+      {"id": "311", "number": "90", "color": "#932E0E"},
+      {"id": "312", "number": "100", "color": "#4F1907"}
+    ]
+  },
+  {
+    "name": "Mint Green",
+    "colors": [
+      {"id": "401", "number": "00", "color": "#EDFAF0"},
+      {"id": "402", "number": "05", "color": "#E1F9E7"},
+      {"id": "403", "number": "10", "color": "#D5F8DF"},
+      {"id": "404", "number": "20", "color": "#BBF3CC"},
+      {"id": "405", "number": "30", "color": "#9EEAB7"},
+      {"id": "406", "number": "40", "color": "#81DBA2"},
+      {"id": "407", "number": "50", "color": "#66C78D"},
+      {"id": "408", "number": "60", "color": "#4FAF78"},
+      {"id": "409", "number": "70", "color": "#3B9364"},
+      {"id": "410", "number": "75", "color": "#34845A"},
+      {"id": "411", "number": "80", "color": "#2C7551"},
+      {"id": "412", "number": "90", "color": "#1F573D"},
+      {"id": "413", "number": "100", "color": "#153B2A"}
+    ]
+  },
+  {
+    "name": "Silicon",
+    "colors": [
+      {"id": "501", "number": "00", "color": "#F8F8FA"},
+      {"id": "502", "number": "05", "color": "#ECECEE"},
+      {"id": "503", "number": "10", "color": "#DEDFE2"},
+      {"id": "504", "number": "15", "color": "#D2D3D6"},
+      {"id": "505", "number": "20", "color": "#C6C7CA"},
+      {"id": "506", "number": "25", "color": "#B9BABE"},
+      {"id": "507", "number": "30", "color": "#ADAEB2"},
+      {"id": "508", "number": "35", "color": "#A0A1A6"},
+      {"id": "509", "number": "40", "color": "#93959A"},
+      {"id": "510", "number": "45", "color": "#87888E"},
+      {"id": "511", "number": "50", "color": "#7A7C82"},
+      {"id": "512", "number": "55", "color": "#6E7076"},
+      {"id": "513", "number": "60", "color": "#62646A"},
+      {"id": "514", "number": "65", "color": "#57585E"},
+      {"id": "515", "number": "70", "color": "#4B4C52"},
+      {"id": "516", "number": "75", "color": "#404146"},
+      {"id": "517", "number": "80", "color": "#35353A"},
+      {"id": "518", "number": "85", "color": "#2A2A2E"},
+      {"id": "519", "number": "90", "color": "#1F1F22"},
+      {"id": "520", "number": "95", "color": "#141416"},
+      {"id": "521", "number": "100", "color":"#09090A"}
+    ]
+  },
+  {
+    "name": "Turmeric",
+    "colors": [
+      {"id": "601", "number": "00", "color": "#FFFCF5"},
+      {"id": "602", "number": "05", "color": "#FFF6DF"},
+      {"id": "603", "number": "10", "color": "#FEEFCA"},
+      {"id": "604", "number": "20", "color": "#FCE19F"},
+      {"id": "605", "number": "30", "color": "#F9D378"},
+      {"id": "606", "number": "40", "color": "#F2C458"},
+      {"id": "607", "number": "50", "color": "#E9B33E"},
+      {"id": "608", "number": "60", "color": "#DAA02B"},
+      {"id": "609", "number": "70", "color": "#C5891C"},
+      {"id": "610", "number": "80", "color": "#A76C11"},
+      {"id": "611", "number": "90", "color": "#7E4B0A"},
+      {"id": "612", "number": "100", "color": "#4D2A05"}
     ]
   }
+  ]
 }}

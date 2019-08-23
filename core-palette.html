@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>iZettle - Core Palette</title>
+  <script src="./js/jquery-3.4.1.min.js"></script>
+  <style>
+    body {font-family:sans-serif;margin:8%;font-size:14px;}
+    
+    #info {background-color:#f4f4f4; padding:2px 10px; margin:0 0 30px;border-radius:6px;}
+    #info li {margin:0; padding:10px 0; border-bottom:1px solid #e7e7e7;list-style:none; }
+    #info li:last-child {border:none;}
+    
+    #collections div {width:120px;height:120px;display:inline-block;margin:0 12px 12px 0;position:relative;border-radius:6px;}
+    #collections div p {background:rgba(255,255,255,0.90);display:block;position:absolute;bottom:0;margin:4px 4px; padding:8px 10px; width:92px; border-radius:3px;}
+    #collections div p span { color:#999; float:right;}
+    #collections h2 {clear:left;margin-top:50px;}
+    
+  </style>
+</head>
+<body>
+
+<h1 id="palette_viewer">Palette Viewer</h1>
+<ul id="info"></ul>
+<div id="collections"></div>	
+
+<script>
+(function() {
+
+	var paletteUrl = "https://raw.githubusercontent.com/ninohoglund/design/master/core-palette.json"
+
+  $.getJSON( paletteUrl )
+    .done(function( data ) {
+  		var p = data.palette;
+      if(!p) {
+        $("body").append("<code>Error: Could not load palette data.</code>");
+        return false;
+      }
+  		$("#info").append("<li><strong>URL: </strong>" + paletteUrl + "</li>");
+  		$("#info").append("<li><strong>Name: </strong>" + p.name + "</li>");
+  		$("#info").append("<li><strong>Version: </strong>" + p.version + "</li>");
+  		$("#info").append("<li><strong>Change date: </strong>" + p.changeDate + "</li>");
+		
+      $.each( p.collections, function( i, collection ) {
+        $("#collections").append("<h2>" + collection.name + "</h2>");
+        
+        $.each( collection.colors, function( j, c ) {
+          $("#collections").append("<div style='background-color:" + c.color + "'><p>" + c.number + " <span>" + c.color + "</span></p></div>");
+        });
+        
+      });
+    });
+})();
+
+</script>
+  
+</body>
+</html>
