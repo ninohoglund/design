@@ -1,0 +1,22 @@
+{"palette": {
+  "name": "Core Palette",
+  "version": "1.0",
+  "change-date": "2019-08-23",
+  "color-collection": {
+	  "name": "Magnetic Blue",
+    "colors": [
+      {"id": "101", "number": "00", "color": "#F3F7FF"},
+      {"id": "102", "number": "05", "color": "#E7EEFD"},
+      {"id": "103", "number": "10", "color": "#DBE5FB"},
+      {"id": "101", "number": "20", "color": "#BECEF0"},
+      {"id": "102", "number": "30", "color": "#9EB1DE"},
+      {"id": "103", "number": "40", "color": "#7C90C3"},
+      {"id": "101", "number": "50", "color": "#5A6DA2"},
+      {"id": "102", "number": "60", "color": "#3D4E80"},
+      {"id": "103", "number": "70", "color": "#273664"},
+      {"id": "101", "number": "80", "color": "#192550"},
+      {"id": "102", "number": "90", "color": "#101B44"},
+      {"id": "103", "number": "100", "color": "#040F3B"}
+    ]
+  }
+}}
