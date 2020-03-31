@@ -1,7 +1,7 @@
 {"palette": {
   "name": "Core Palette",
   "version": "1.1",
-  "changeDate": "2019-09-14",
+  "changeDate": "2020-03-12",
   "collections": [
     {
     "name": "Magnetic Blue",
@@ -77,7 +77,7 @@
     "name": "Silicon",
     "colors": [
       {"id": "500", "number": "00", "color": "#F8F8FA"},
-      {"id": "505", "number": "05", "color": "#ECECEE"},
+      {"id": "505", "number": "05", "color": "#F0F0F2"},
       {"id": "510", "number": "10", "color": "#DEDFE2"},
       {"id": "515", "number": "15", "color": "#D2D3D6"},
       {"id": "520", "number": "20", "color": "#C6C7CA"},
